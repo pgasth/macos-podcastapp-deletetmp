@@ -19,4 +19,4 @@ To ensure that the script is executed automatically on a regular basis, launchd 
 
 3.1 To do this, download the .plist file and customize it. It is important to include the path to the script and, if necessary, the changed script name. The start interval can also be modified. Further configuration options can be found in the launchctl documentation.  
 3.2 Save the .plist file in the path “~/Library/LaunchAgents”  
-3.2. Start the daemon with the command: launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/com.your.label.plist
+3.2. Start the daemon with the command: launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/com.user.cleanup_podcasts_tmp.plist
